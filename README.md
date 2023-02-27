@@ -7,5 +7,6 @@ bwavesauto.py, (extract, interpolate, calculate, and generate Beaufort Scale geo
 uploadWWdayn.py (uploads geojson to portal)
 
 
-A requirements.txt file will be included for dependencies.  
-Note that the automate.sh script switches environments.
+The two requirements.txt files indicate the dependencies in the two environments (I called them gis and gisbob). 
+
+The automate.sh script switches between these environments.
