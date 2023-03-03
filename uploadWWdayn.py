@@ -34,14 +34,13 @@ id=["c1e9dae713924c23858826d34ce9f3cc",
 "e6299b55c75b44ee8b62dbb46dfca0e6",
 "328846a5e5014e90af2b49533a2f955d",
 "047819c9265145f1805ca40a68b9827f",
-"971b1d7b00d2466286340bc5a79f39cd",
-"781d65971ee64e329eb0314fbdc7a5fb"]
+"971b1d7b00d2466286340bc5a79f39cd"]
       
       
         
 for i,file in enumerate(["gfswaveday1.geojson","gfswaveday2.geojson","gfswaveday3.geojson",
 "gfswaveday4.geojson","gfswaveday5.geojson","gfswaveday6.geojson","gfswaveday7.geojson","Beaufort1.geojson",
-"Beaufort2.geojson","Beaufort3.geojson","gfswaveday1.geojson"]):
+"Beaufort2.geojson","Beaufort3.geojson"]):
 	with open(file) as f:        
     # returns JSON object as 
     # a dictionary
